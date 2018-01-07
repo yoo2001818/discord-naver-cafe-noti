@@ -3,7 +3,7 @@ import request from 'request-promise';
 import Discord from 'discord.js';
 import fetchArticles from './fetchArticles';
 
-import * as config from '../config';
+const config = require(process.env.CONFIG_DIR || '../config');
 
 // TODO Separate discord part
 
