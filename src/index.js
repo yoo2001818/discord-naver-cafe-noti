@@ -48,6 +48,7 @@ function saveSeenFile() {
 }
 
 async function refresh() {
+  console.log('Refreshing...');
   let shouldSave = false;
   for (let target of config.targets) {
     let articles = await fetchArticles(request, target.id);
@@ -67,4 +68,4 @@ async function refresh() {
   if (shouldSave) saveSeenFile();
 }
 
-setInterval(refresh, 10000);
+setInterval(refresh, 2 * 60 * 1000);
