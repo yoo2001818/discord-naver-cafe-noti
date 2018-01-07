@@ -1,0 +1,27 @@
+{
+  "name": "discord-naver-cafe-noti",
+  "version": "0.1.0",
+  "description": " Discord Naver cafe new article notification bot ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoo2001818/discord-naver-cafe-noti.git"
+  },
+  "author": "yoo2001818",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoo2001818/discord-naver-cafe-noti/issues"
+  },
+  "homepage": "https://github.com/yoo2001818/discord-naver-cafe-noti#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "debug": "^3.1.0",
+    "eslint": "^4.15.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "tough-cookie": "^2.3.3"
+  }
+}
