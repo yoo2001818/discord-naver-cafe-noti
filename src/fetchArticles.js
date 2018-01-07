@@ -21,5 +21,5 @@ export default async function fetchArticles(request, cafeId) {
       title: $(el).children('td:nth-child(2)').find('.m-tcol-c').text(),
       author: $(el).children('td:nth-child(3)').find('.m-tcol-c').text(),
     })).get();
-  console.log(articleList);
+  return articleList;
 }
